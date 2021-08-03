@@ -1,4 +1,8 @@
-<template> </template>
+<template>
+  <div id="app">
+    nav-footer
+  </div>
+</template>
 
 <script>
 export default {

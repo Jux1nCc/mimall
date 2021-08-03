@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    index
+    order-footer
   </div>
 </template>
 
 <script>
 export default {
-  name: 'index'
+  name: 'order-footer'
 }
 </script>
 

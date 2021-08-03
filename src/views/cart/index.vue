@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    order
     <order-header></order-header>
-    <router-view></router-view>
+    cart
     <nav-footer></nav-footer>
   </div>
 </template>
@@ -11,7 +10,7 @@
 import OrderHeader from '../../components/OrderHeader.vue'
 import NavFooter from '../../components/NavFooter.vue'
 export default {
-  name: 'order',
+  name: 'cart',
   components: {
     OrderHeader,
     NavFooter
