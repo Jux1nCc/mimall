@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve --mode=development",
+    "test": "vue-cli-service serve --mode=test",
+    "prev": "vue-cli-service serve --mode=prev",
+    "build": "vue-cli-service build --mode=production",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -31,6 +33,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
+    "mockjs": "^1.1.0",
     "node-sass": "^6.0.1",
     "sass-loader": "^12.1.0",
     "swiper": "^5.3.6",
